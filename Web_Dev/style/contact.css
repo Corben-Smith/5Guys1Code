@@ -1,0 +1,190 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card1 {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(255, 214, 89);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card2 {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(228, 0, 43);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card3 {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(0, 122, 194);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card4 {
+  width: 300px;
+  margin: 20px;
+  background-color: rgb(0,0,0);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.card3:hover {
+  transform: scale(1.05);
+}
+
+.card4:hover {
+  transform: scale(1.05);
+}
+
+.card1 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card2 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card3 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card4 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card1-content {
+  padding: 20px;
+}
+
+.card2-content {
+  padding: 20px;
+}
+
+.card3-content {
+  padding: 20px;
+}
+
+.card4-content {
+  padding: 20px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.card1-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card2-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card3-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card4-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card1-description {
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+
+.card2-description {
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+
+.card3-description {
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+
+.card4-description {
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
